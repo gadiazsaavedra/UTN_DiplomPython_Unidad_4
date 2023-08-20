@@ -1,17 +1,17 @@
 """
 Este código solicita al usuario que ingrese su edad
-y luego define una función lambda llamada 
+y luego define una función lambda llamada
 imprimir_anios_cumplidos que toma la edad como entrada
 y muestra en la consola todos los años desde el 1 hasta
 la edad en forma ascendente y descendente
 """
-####### Usando Func.Lambda ###########
+# Usando Func.Lambda #
 edad = int(input("Cuantos años tiene Ud..?? : "))
 """
 La función lambda se define utilizando
 la palabra clave lambda, seguida de los parámetros
-de entrada (en este caso, edad) y luego los dos puntos
-y una tupla de expresiones que se ejecutan en secuencia.
+de entrada (en este caso, edad) y luego de los dos puntos
+hay tuplas de expresiones que se ejecutan en secuencia.
 Cada expresión es una llamada a la función print que muestra
 una cadena de texto que se construye utilizando
 la función join y la función range.

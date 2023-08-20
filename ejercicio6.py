@@ -7,7 +7,7 @@ Luego, se imprime la lista ordenada en la consola.
 
 
 lista = [3, 44, 21, 78, 5, 56, 9, 0, 1]
-"""Esta línea se ordena la lista utilizando la función sorted.
+"""La siguiente línea ordena la lista utilizando la función sorted.
 La función sorted toma la lista como entrada y devuelve una
 nueva lista ordenada en orden ascendente. 
 La sintaxis key=lambda x: x indica que se debe ordenar
